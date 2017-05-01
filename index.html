@@ -17,6 +17,19 @@
         .hide {
           display: none;
         }
+
+        li input {
+            display: none;
+        }
+
+        li.edit span {
+            display: none;
+        }
+
+        li.edit input {
+            display: initial;
+        }
+
     </style>
 </head>
  
@@ -42,7 +55,7 @@
             <p id="add-sum"></p> -->
 
 
-            <h4>Pictures</h4>
+            <!-- <h4>Pictures</h4>
             <ul>
               <li><a data-img="batman-pic" id="batman" href="#">Batman</a></li>
               <li><a data-img="joker-pic" id="joker" href="#">Joker</a></li>
@@ -51,12 +64,26 @@
 
             <img class="hide" id="batman-pic" src="https://s-media-cache-ak0.pinimg.com/736x/ae/03/18/ae0318120e8cf4158705144e2b7fe824.jpg">
             <img class="hide" id="joker-pic" src="https://static5.comicvine.com/uploads/original/11125/111253442/5004137-joker.jpg">
-            <img class="hide" id="bane-pic" src="http://vignette3.wikia.nocookie.net/batman/images/9/93/Batman_The_Dark_Knight_Vol_2-6_Cover-1_Teaser.jpg/revision/latest?cb=20111115213055" alt="">
+            <img class="hide" id="bane-pic" src="http://vignette3.wikia.nocookie.net/batman/images/9/93/Batman_The_Dark_Knight_Vol_2-6_Cover-1_Teaser.jpg/revision/latest?cb=20111115213055" alt=""> -->
+
+
+                <ul id="checklist">
+                    <li>
+                        <span>Apples</span>
+                        <input value="Apples" />
+                    </li>
+                    <li><span>Oranges</span>
+                        <input value="Oranges" />
+                    </li>
+                    <li><span>Bananas</span>
+                        <input value="Bananas" />
+                    </li>
+                </ul>
 
         </main>
     </div>
 
-    <script type="text/javascript" src="scripts/event-image.js"></script>
+    <script type="text/javascript" src="scripts/todo.js"></script>
 
 </body>
  
