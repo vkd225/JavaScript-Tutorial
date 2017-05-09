@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>React app!</title>
-    <style type="text/css">
-		body {
+	body {
 		  font-family: Tahoma, sans-serif;
 		  margin: 0;
-		}
-
-		textarea {
- 		   resize: none;
 		}
 
 		.ContactView-title {
@@ -60,16 +50,3 @@
 		  border: 1px solid #888;
 		  font-size: 14px;
 		}
-    </style>
-  </head>
-  <body>
-    <div id="react-app"></div>
-
-    <script src="https://cdn.jsdelivr.net/react/0.14.0-rc1/react.js"></script>
-    <script src="https://cdn.jsdelivr.net/react/0.14.0-rc1/react-dom.js"></script>
-
-    <script type="text/javascript" src="addContact.js"></script>
-
- </body>
-</html>
-
